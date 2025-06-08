@@ -72,6 +72,17 @@ The server will be available to any MCP client with the following capabilities:
 
 Set the `OFFICE_EDIT_PATH` environment variable to specify where documents should be saved (defaults to Desktop).
 
+use for MCP:
+{
+    "mcpServers":{
+        "wordEditor": {
+        "command": "python",
+        "args": ["path to word_server.py"]
+        }
+    }
+}
+
+
 ## Notes
 
 - Some advanced features require Windows and pywin32
