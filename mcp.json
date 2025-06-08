@@ -1,0 +1,8 @@
+{
+    "mcpServers":{
+        "wordEditor": {
+        "command": "python",
+        "args": ["path to word_server.py"]
+        }
+    }
+}
